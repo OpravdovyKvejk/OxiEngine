@@ -1,4 +1,4 @@
-# OxiEngine
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "OxiEngine Logo")
 Written in C++, OxiEngine's goal is to create unforgetable horror experiences.
 Inspired by Frictional Games and their HPL Engine. 
 ## Uses:
