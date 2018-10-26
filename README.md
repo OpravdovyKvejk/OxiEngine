@@ -6,7 +6,7 @@ Inspired by Frictional Games and their HPL Engine.
 - GLEW  
 - glm  
 ## Features:
-SDL OpenGL-enabled Window initialization
+SDL OpenGL-enabled Window initialization  
 Shader support
 ## Planned Features:
 30-10-2018 Shader-based vertex rendering  
