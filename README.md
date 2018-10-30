@@ -16,3 +16,7 @@ Shader-based vertex rendering and texturing
 ## System Requirements:
 64-bit Operating System  
 OpenGL 4.6 enabled GPU
+## Changelog:
+### v0.1.0
+Added shader-based vertex rendering
+Added texturing
