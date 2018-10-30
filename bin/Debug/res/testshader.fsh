@@ -1,6 +1,11 @@
-#version 330
+#version 460 core
 
-void main()
+uniform sampler2D diffuse;
+
+in vec2 texcoord;
+out vec4 outColor;
+
+void main(void)
 {
-    gl_FragColor = vec4(0.0, 0.44, 0.56, 1.0);
+    outColor = texture2D(diffuse, texcoord);
 }
