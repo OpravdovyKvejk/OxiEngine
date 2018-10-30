@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1540500432 source:c:\users\schmied\documents\netbeansprojects\oxiengine\main.cpp
+1540896942 source:c:\users\schmied\documents\netbeansprojects\oxiengine\main.cpp
 	<iostream>
 	<SDL2/SDL.h>
 	"display.h"
+	"shader.h"
+	"mesh.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -36,12 +38,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_main.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_stdinc.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -70,34 +72,34 @@
 	<stdlib.h>
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_config.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_platform.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\begin_code.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\begin_code.h
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\close_code.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\close_code.h
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_assert.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_atomic.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	<mbarrier.h>
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_audio.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -107,24 +109,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_error.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_endian.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_mutex.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_thread.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -135,18 +137,18 @@
 	<stdlib.h>
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_rwops.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_clipboard.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_cpuinfo.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -160,7 +162,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_events.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -174,7 +176,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_video.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -182,13 +184,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_pixels.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_rect.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -196,7 +198,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_surface.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -205,11 +207,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_blendmode.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_keyboard.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -217,27 +219,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_keycode.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_scancode.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_mouse.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_joystick.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_gamecontroller.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -245,11 +247,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_quit.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_gesture.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -257,60 +259,60 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_touch.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_filesystem.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_haptic.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_hints.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_loadso.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_log.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_messagebox.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_power.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_render.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_shape.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -319,7 +321,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_system.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -327,18 +329,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_timer.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1519925905 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_version.h
+1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1501505181 c:\users\schmied\documents\netbeansprojects\oxiengine\include\gl\glew.h
+1501501581 c:\users\schmied\documents\netbeansprojects\oxiengine\include\gl\glew.h
 	<stddef.h>
 	<inttypes.h>
 	<stdint.h>
@@ -347,12 +349,1012 @@
 	<OpenGL/glu.h>
 	<GL/glu.h>
 
-1540500320 source:c:\users\schmied\documents\netbeansprojects\oxiengine\display.cpp
+1540567885 source:c:\users\schmied\documents\netbeansprojects\oxiengine\display.cpp
 	<iostream>
 	"display.h"
 	<GL/glew.h>
 
-1540501480 c:\users\schmied\documents\netbeansprojects\oxiengine\display.h
+1540893481 c:\users\schmied\documents\netbeansprojects\oxiengine\display.h
 	<SDL2/SDL.h>
 	<string>
+
+1540893487 c:\users\schmied\documents\netbeansprojects\oxiengine\shader.h
+	<string>
+	<GL/glew.h>
+
+1540568005 source:c:\users\schmied\documents\netbeansprojects\oxiengine\shader.cpp
+	"shader.h"
+	<iostream>
+	<fstream>
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\begin_code.h
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\close_code.h
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1501501581 c:\users\schmied\documents\netbeansprojects\oxiengine\include32\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1540896935 source:c:\users\schmied\documents\netbeansprojects\oxiengine\mesh.cpp
+	"mesh.h"
+
+1540896817 c:\users\schmied\documents\netbeansprojects\oxiengine\mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1536584214 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1533818823 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\_swizzle.hpp
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\_swizzle_func.hpp
+
+1536584325 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1533818821 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1533818823 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1536584292 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1533818823 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1536584234 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec4_simd.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat2x3.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat2x4.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat3x2.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat3x4.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat4x2.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat4x3.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_mat4x4_simd.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1535535512 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1536584333 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1533818821 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1535535285 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_vector_relational_simd.inl
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\_vectorize.hpp
+
+1533818821 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1531731968 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\simd\exponential.h
+	"platform.h"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1535615770 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1535615770 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1531731968 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\simd\common.h
+	"platform.h"
+
+1525695782 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1525695782 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\simd\geometric.h
+	"common.h"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1525695782 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\simd\matrix.h
+	"geometric.h"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1535535316 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1464685461 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_trigonometric_simd.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\type_half.inl
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_packing_simd.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1525695782 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\simd\integer.h
+
+1540896691 source:c:\users\schmied\documents\netbeansprojects\oxiengine\texture.cpp
+	"texture.h"
+
+1540896719 c:\users\schmied\documents\netbeansprojects\oxiengine\texture.h
 

@@ -2,7 +2,7 @@
 #include "display.h"
 #include <GL/glew.h>
 
-Display::Display(int width, int height, std::string title)
+Display::Display(int width, int height, const std::string &title)
 {
     SDL_GL_SetAttribute(SDL_GL_RED_SIZE, 8);
     SDL_GL_SetAttribute(SDL_GL_GREEN_SIZE, 8);

@@ -40,6 +40,8 @@
 		<Unit filename="display.cpp" />
 		<Unit filename="display.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="shader.cpp" />
+		<Unit filename="shader.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
