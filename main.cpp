@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     std::cout << "Starting engine..." << std::endl;
     std::clock_t engineStart = std::clock();
     SDL_Init(SDL_INIT_EVERYTHING); //Init everything, probably boil down to individual features in the future
-    Display display(1280, 720, "OxiEngine x64 v0.1.0"); //Show 'x64'? Engine is x64 only.
+    Display display(640, 480, "OxiEngine x64 v0.1.1"); //Show 'x64'? Engine is x64 only.
     double duration = ((std::clock() - engineStart) / (double) CLOCKS_PER_SEC) * 1000;
     std::cout << "Engine started in " << duration << "ms" <<std::endl;
 
