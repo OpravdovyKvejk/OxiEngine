@@ -14,3 +14,6 @@ Shader-based vertex rendering
 04-11-2018 External model support (.OBJ)  
 05-11-2018 Textures  
 12-11-2018 Lighting  
+## System Requirements:
+64-bit Operating System  
+OpenGL 4.6 enabled GPU
