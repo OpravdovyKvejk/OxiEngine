@@ -1,8 +1,11 @@
-#version 330
+#version 460 core
 
-out vec4 out_Color;
+uniform sampler2D diffuse;
 
-void main()
+in vec2 texcoord;
+out vec4 outColor;
+
+void main(void)
 {
-    out_Color = vec4(1.0, 1.0, 1.0, 1.0);
+    outColor = texture2D(diffuse, texcoord);
 }

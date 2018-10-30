@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1540896942 source:c:\users\schmied\documents\netbeansprojects\oxiengine\main.cpp
+1540936370 source:c:\users\schmied\documents\netbeansprojects\oxiengine\main.cpp
 	<iostream>
 	<SDL2/SDL.h>
+	<ctime>
 	"display.h"
 	"shader.h"
 	"mesh.h"
+	"texture.h"
 
 1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -354,15 +356,15 @@
 	"display.h"
 	<GL/glew.h>
 
-1540893481 c:\users\schmied\documents\netbeansprojects\oxiengine\display.h
+1540912228 c:\users\schmied\documents\netbeansprojects\oxiengine\display.h
 	<SDL2/SDL.h>
 	<string>
 
-1540893487 c:\users\schmied\documents\netbeansprojects\oxiengine\shader.h
+1540912222 c:\users\schmied\documents\netbeansprojects\oxiengine\shader.h
 	<string>
 	<GL/glew.h>
 
-1540568005 source:c:\users\schmied\documents\netbeansprojects\oxiengine\shader.cpp
+1540935824 source:c:\users\schmied\documents\netbeansprojects\oxiengine\shader.cpp
 	"shader.h"
 	<iostream>
 	<fstream>
@@ -710,10 +712,11 @@
 	<OpenGL/glu.h>
 	<GL/glu.h>
 
-1540896935 source:c:\users\schmied\documents\netbeansprojects\oxiengine\mesh.cpp
+1540935893 source:c:\users\schmied\documents\netbeansprojects\oxiengine\mesh.cpp
 	"mesh.h"
+	<vector>
 
-1540896817 c:\users\schmied\documents\netbeansprojects\oxiengine\mesh.h
+1540934834 c:\users\schmied\documents\netbeansprojects\oxiengine\mesh.h
 	<glm/glm.hpp>
 	<GL/glew.h>
 
@@ -1353,8 +1356,13 @@
 
 1525695782 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\simd\integer.h
 
-1540896691 source:c:\users\schmied\documents\netbeansprojects\oxiengine\texture.cpp
+1540936162 source:c:\users\schmied\documents\netbeansprojects\oxiengine\texture.cpp
 	"texture.h"
+	<iostream>
+	<cassert>
 
-1540896719 c:\users\schmied\documents\netbeansprojects\oxiengine\texture.h
+1540927180 c:\users\schmied\documents\netbeansprojects\oxiengine\texture.h
+	<string>
+	<GL/glew.h>
+	<SDL2/SDL.h>
 

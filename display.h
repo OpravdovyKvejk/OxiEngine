@@ -7,21 +7,21 @@
 
 class Display
 {
-public:
-    Display(int, int, const std::string&);
+    public:
+        Display(int, int, const std::string&);
 
-    void Clear(float, float, float, float);
-    void Update();
-    bool isClosed();
+        void Clear(float, float, float, float);
+        void Update();
+        bool isClosed();
 
-    virtual ~Display();
-private:
-    Display(const Display& other) {}
-    void operator=(const Display& other) {}
+        virtual ~Display();
+    private:
+        Display(const Display& other) {}
+        void operator=(const Display& other) {}
 
-    SDL_Window* m_window;
-    SDL_GLContext m_glContext;
-    bool shouldClose;
+        SDL_Window* m_window;
+        SDL_GLContext m_glContext;
+        bool shouldClose;
 };
 
 #endif // DISPLAY_H

@@ -40,8 +40,12 @@
 		<Unit filename="display.cpp" />
 		<Unit filename="display.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="mesh.cpp" />
+		<Unit filename="mesh.h" />
 		<Unit filename="shader.cpp" />
 		<Unit filename="shader.h" />
+		<Unit filename="texture.cpp" />
+		<Unit filename="texture.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
