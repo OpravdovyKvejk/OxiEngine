@@ -7,9 +7,8 @@ Inspired by Frictional Games and their HPL Engine.
 - glm  
 ## Features:
 SDL OpenGL-enabled Window initialization  
-Shader support
+Shader-based vertex rendering
 ## Planned Features:
-30-10-2018 Shader-based vertex rendering  
 30-10-2018 Perspective  
 04-11-2018 External model support (.OBJ)  
 05-11-2018 Textures  
