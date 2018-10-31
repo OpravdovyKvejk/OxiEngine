@@ -1,12 +1,8 @@
-#version 460 core
+#version 330
 
-layout (location = 0)in vec3 position;
-layout (location = 1)in vec2 texCoord;
+attribute vec3 position;
 
-out vec2 texcoord;
-
-void main(void)
+void main()
 {
-    texcoord = texCoord;
     gl_Position = vec4(position, 1.0);
 }

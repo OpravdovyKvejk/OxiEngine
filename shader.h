@@ -3,7 +3,6 @@
 
 #include <string>
 #include <GL/glew.h>
-#include "transform.h"
 
 class Shader
 {
@@ -11,8 +10,6 @@ class Shader
         Shader(const std::string&);
 
         void Bind();
-        void Update(const Transform& transform);
-
         std::string LoadShader(const std::string&);
         void CheckShaderError(GLuint, GLuint, bool, const std::string&);
         GLuint CreateShader(const std::string&, GLenum);
@@ -23,16 +20,8 @@ class Shader
         Shader(const Shader& other) {}
         void operator=(const Shader& other) {}
 
-        enum
-        {
-            TRANSFORM_U,
-
-            NUM_UNIFORMS
-        };;
-
         GLuint m_program;
         GLuint m_shaders[NUM_SHADERS];
-        GLuint m_uniforms[NUM_UNIFORMS];
 };
 
 #endif // SHADER_H

@@ -5,14 +5,13 @@
 #include "shader.h"
 #include "mesh.h"
 #include "texture.h"
-#include "transform.h"
 
 int main(int argc, char *argv[])
 {
     std::cout << "Starting engine..." << std::endl;
     std::clock_t engineStart = std::clock();
     SDL_Init(SDL_INIT_EVERYTHING); //Init everything, probably boil down to individual features in the future
-    Display display(640, 480, "OxiEngine x64 v0.1.5"); //Show 'x64'? Engine is x64 only.
+    Display display(640, 480, "OxiEngine x64 v0.1.1"); //Show 'x64'? Engine is x64 only.
     double duration = ((std::clock() - engineStart) / (double) CLOCKS_PER_SEC) * 1000;
     std::cout << "Engine started in " << duration << "ms" <<std::endl;
 
@@ -31,25 +30,15 @@ int main(int argc, char *argv[])
     Mesh mesh2(vertices2, sizeof(vertices2)/sizeof(vertices2[0]));
     Shader shader(".\\res\\testshader");
     Texture texture(".\\res\\texture.bmp");
-    Transform transform;
-
-    float counter = 0.0f;
-
     while (!display.isClosed() ) //Move this to Engine class
     {
         display.Clear(0.0f, 0.44f, 0.56f, 1.0f);
-
-        transform.GetPos().x = sinf(counter);
-        transform.GetRot().z = cosf(counter);
-
         shader.Bind();
-        shader.Update(transform);
         texture.Bind(0);
         mesh.Draw();
         mesh2.Draw();
 
         display.Update();
-        counter += 0.05f;
     }
 
     SDL_Quit();

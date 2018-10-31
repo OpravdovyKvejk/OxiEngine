@@ -8,7 +8,6 @@ Inspired by Frictional Games and their HPL Engine.
 ## Features:
 SDL OpenGL-enabled Window initialization  
 Shader-based vertex rendering and texturing  
-Matrix transformations
 ## Planned Features:
 01-11-2018 Perspective  
 04-11-2018 External model support (.OBJ)  
@@ -18,10 +17,6 @@ Matrix transformations
 64-bit Operating System  
 OpenGL 4.6 enabled GPU
 ## Changelog:
-### v0.1.5
-Added matrix transformations  
-### v0.1.1
-Reduced window size back to 640x480  
 ### v0.1.0
 Added shader-based vertex rendering  
 Added texturing  
