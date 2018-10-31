@@ -27,19 +27,31 @@ class Camera
         void SetRotation(glm::vec3 rotation)
         {
             m_rotation = rotation;
-            m_forward.x = glm::sin(m_rotation.y); //Y
-            m_forward.z = glm::cos(m_rotation.y); //Y
-            m_forward.y = glm::sin(m_rotation.x); //X
-            m_forward.z = glm::cos(m_rotation.x); //X
+            if (m_rotation.y != 0)
+            {
+                m_forward.x = glm::sin(m_rotation.y); //Y
+                m_forward.z = glm::cos(m_rotation.y); //Y
+            }
+            if (m_rotation.x != 0)
+            {
+                m_forward.y = glm::sin(m_rotation.x); //X
+                m_forward.z = glm::cos(m_rotation.x); //X
+            }
         }
 
         void AddRotation(glm::vec3 rotation)
         {
             m_rotation += rotation;
-            m_forward.x = glm::sin(m_rotation.y); //Y
-            m_forward.z = glm::cos(m_rotation.y); //Y
-            m_forward.y = glm::sin(m_rotation.x); //X
-            m_forward.z = glm::cos(m_rotation.x); //X
+            if (m_rotation.y != 0)
+            {
+                m_forward.x = glm::sin(m_rotation.y); //Y
+                m_forward.z = glm::cos(m_rotation.y); //Y
+            }
+            if (m_rotation.x != 0)
+            {
+                m_forward.y = glm::sin(m_rotation.x); //X
+                m_forward.z = glm::cos(m_rotation.x); //X
+            }
         }
 
     private:

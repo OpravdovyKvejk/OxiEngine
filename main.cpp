@@ -32,9 +32,7 @@ int main(int argc, char *argv[])
     {
         display.Clear(0.0f, 0.0f, 0.0f, 1.0f);
 
-        //transform.GetPos().x = sinf(counter);
         transform.GetRot().x = counter;
-        //camera.SetRotation(glm::vec3(0, counter * 0.05, 0));
 
         shader.Bind();
         shader.Update(transform, camera);
@@ -78,7 +76,7 @@ int main(int argc, char *argv[])
                 break;
             }
         }
-        camera.AddRotation(glm::vec3(0.05f * camRotDirV, 0.05f * camRotDir, 0));
+        camera.AddRotation(glm::vec3(0.05 * camRotDirV, 0.05 * camRotDir, 0));
 
         counter += 0.05f;
     }
