@@ -18,8 +18,8 @@ Matrix transformations
 OpenGL 4.6 enabled GPU
 ## Changelog:
 ### v0.1.7
-Added (experimental) external model support (.OBJ)
-Added camera perspective
+Added (experimental) external model support (.OBJ)  
+Added camera perspective  
 ### v0.1.5
 Added matrix transformations  
 ### v0.1.1
