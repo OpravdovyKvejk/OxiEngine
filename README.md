@@ -17,6 +17,8 @@ Matrix transformations
 64-bit Operating System  
 OpenGL 4.6 enabled GPU
 ## Changelog:
+### v0.1.7.1
+Fixed a bug where pressing both arrow keys resulted in a sine-like rotation.  
 ### v0.1.7
 Added (experimental) external model support (.OBJ)  
 Added camera perspective  
