@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1540936370 source:c:\users\schmied\documents\netbeansprojects\oxiengine\main.cpp
+1540983696 source:c:\users\schmied\documents\netbeansprojects\oxiengine\main.cpp
 	<iostream>
 	<SDL2/SDL.h>
 	<ctime>
@@ -7,6 +7,7 @@
 	"shader.h"
 	"mesh.h"
 	"texture.h"
+	"transform.h"
 
 1519922305 c:\users\schmied\documents\netbeansprojects\oxiengine\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -360,11 +361,12 @@
 	<SDL2/SDL.h>
 	<string>
 
-1540912222 c:\users\schmied\documents\netbeansprojects\oxiengine\shader.h
+1540983762 c:\users\schmied\documents\netbeansprojects\oxiengine\shader.h
 	<string>
 	<GL/glew.h>
+	"transform.h"
 
-1540935824 source:c:\users\schmied\documents\netbeansprojects\oxiengine\shader.cpp
+1540983591 source:c:\users\schmied\documents\netbeansprojects\oxiengine\shader.cpp
 	"shader.h"
 	<iostream>
 	<fstream>
@@ -1365,4 +1367,69 @@
 	<string>
 	<GL/glew.h>
 	<SDL2/SDL.h>
+
+1540984741 c:\users\schmied\documents\netbeansprojects\oxiengine\transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1531731968 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1535534915 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\scalar_constants.inl
+	<limits>
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\gtc\constants.inl
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_projection.inl
+
+1536049258 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_clip_space.inl
+
+1535966586 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\ext\matrix_transform.inl
+
+1535531570 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1533818822 c:\users\schmied\documents\netbeansprojects\oxiengine\include\glm\gtx\transform.inl
 
