@@ -3,6 +3,8 @@
 
 #include <glm/glm.hpp>
 #include <GL/glew.h>
+#include <string>
+#include "obj_loader.h"
 
 class Vertex
 {
@@ -23,7 +25,8 @@ class Vertex
 class Mesh
 {
     public:
-        Mesh(Vertex*, unsigned int);
+        Mesh(Vertex*, unsigned int, unsigned int*, unsigned int);
+        Mesh(const std::string&);
         virtual ~Mesh();
 
         void Draw();
@@ -31,10 +34,14 @@ class Mesh
         Mesh(const Mesh& other) {}
         void operator=(const Mesh& other) {}
 
+        void InitMesh(const IndexedModel&);
+
         enum
         {
             POSITION_VB,
             TEXCOORD_VB,
+
+            INDEX_VB,
 
             NUM_BUFFERS
         };

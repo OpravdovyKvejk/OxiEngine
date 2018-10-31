@@ -1,6 +1,14 @@
-#version 330
+#version 460 core
 
-void main()
+in vec2 texcoord;
+out vec4 outColor;
+
+uniform sampler2D diffuse;
+
+void main(void)
 {
-    gl_FragColor = vec4(0.0, 0.44, 0.56, 1.0);
+    if (gl_FragCoord.x > 320) //used for showcasing lighting
+        outColor = texture2D(diffuse, texcoord);
+    else
+        outColor = vec4(1, 1, 1, 1);
 }
