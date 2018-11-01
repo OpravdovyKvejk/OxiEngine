@@ -10,13 +10,14 @@ SDL OpenGL-enabled Window initialization
 Shader-based vertex rendering and texturing  
 Matrix transformations
 ## Planned Features:
-05-11-2018 Camera movement interface (0.1.8)  
 08-11-2018 External model support (.OBJ) (0.1.9)  
 12-11-2018 Lighting (0.2.0)  
 ## System Requirements:
 64-bit Operating System  
 OpenGL 4.6 enabled GPU
 ## Changelog:
+### v0.1.8
+Added camera movement interface  
 ### v0.1.7.1
 Fixed a bug where pressing both arrow keys resulted in a sine-like rotation.  
 ### v0.1.7
