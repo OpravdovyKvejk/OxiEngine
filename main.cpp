@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     {
         display.Clear(0.0f, 0.0f, 0.0f, 1.0f);
 
-        //transform.GetRot().x = counter;
+        transform.GetRot().y = counter;
 
         shader.Bind();
         shader.Update(transform, camera);
@@ -52,21 +52,21 @@ int main(int argc, char *argv[])
                 case SDL_KEYDOWN:
                     switch (e.key.keysym.sym)
                     {
-                        case SDLK_RIGHT: camRotDir = 1;
+                        case SDLK_RIGHT: camRotDir = -1;
                             break;
-                        case SDLK_LEFT: camRotDir = -1;
+                        case SDLK_LEFT: camRotDir = 1;
                             break;
-                        case SDLK_UP: camRotDirV = -1;
+                        case SDLK_UP: camRotDirV = 1;
                             break;
-                        case SDLK_DOWN: camRotDirV = 1;
+                        case SDLK_DOWN: camRotDirV = -1;
                             break;
                         case SDLK_w: camPosDirV = 360;
                             break;
                         case SDLK_s: camPosDirV = -180;
                             break;
-                        case SDLK_a: camPosDir = -90;
+                        case SDLK_a: camPosDir = 90;
                             break;
-                        case SDLK_d: camPosDir = 90;
+                        case SDLK_d: camPosDir = -90;
                             break;
 
                         case SDLK_ESCAPE: display.ShouldClose(true);
@@ -76,21 +76,21 @@ int main(int argc, char *argv[])
                 case SDL_KEYUP:
                     switch (e.key.keysym.sym)
                     {
-                        case SDLK_RIGHT: if (camRotDir > 0) camRotDir = 0;
+                        case SDLK_RIGHT: if (camRotDir < 0) camRotDir = 0;
                             break;
-                        case SDLK_LEFT: if (camRotDir < 0) camRotDir = 0;
+                        case SDLK_LEFT: if (camRotDir > 0) camRotDir = 0;
                             break;
-                        case SDLK_UP: if (camRotDirV < 0) camRotDirV = 0;
+                        case SDLK_UP: if (camRotDirV > 0) camRotDirV = 0;
                             break;
-                        case SDLK_DOWN: if (camRotDirV > 0) camRotDirV = 0;
+                        case SDLK_DOWN: if (camRotDirV < 0) camRotDirV = 0;
                             break;
                         case SDLK_w: if (camPosDirV > 0) camPosDirV = 0;
                             break;
                         case SDLK_s: if (camPosDirV < 0) camPosDirV = 0;
                             break;
-                        case SDLK_a: if (camPosDir < 0) camPosDir = 0;
+                        case SDLK_a: if (camPosDir > 0) camPosDir = 0;
                             break;
-                        case SDLK_d: if (camPosDir > 0) camPosDir = 0;
+                        case SDLK_d: if (camPosDir < 0) camPosDir = 0;
                             break;
                     }
                 break;
