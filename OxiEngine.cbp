@@ -7,7 +7,7 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/OxiEngine" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/OxiEngine64" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/OxiEngine" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/OxiEngine64" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -37,15 +37,21 @@
 			<Add option="-lmingw32 -lSDL2main -lSDL2 -lglew32 -lopengl32" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="camera.h" />
 		<Unit filename="display.cpp" />
 		<Unit filename="display.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="mesh.cpp" />
 		<Unit filename="mesh.h" />
+		<Unit filename="obj_loader.cpp" />
+		<Unit filename="obj_loader.h" />
+		<Unit filename="res/testshader.fsh" />
+		<Unit filename="res/testshader.vsh" />
 		<Unit filename="shader.cpp" />
 		<Unit filename="shader.h" />
 		<Unit filename="texture.cpp" />
 		<Unit filename="texture.h" />
+		<Unit filename="transform.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
