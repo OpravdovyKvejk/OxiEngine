@@ -15,7 +15,7 @@ class Camera
             m_perspective = glm::perspective(glm::radians(fov), aspect, zNear, zFar);
             m_position = pos;
             m_forward = glm::vec3(0, 0, 0);
-            m_up = glm::vec3(0, -1, 0);
+            m_up = glm::vec3(0, 1, 0);
             m_rotation = glm::vec3(0, 0, 0);
             m_speed = speed;
             m_mouselook = mouselook;
@@ -23,8 +23,7 @@ class Camera
 
         inline glm::mat4 GetViewProjection() const
         {
-            //glm::mat4 returnMatrix = glm::lookAt(m_position, m_position + m_forward, m_up);
-            glm::mat4 returnMatrix = glm::lookAt(m_position, m_forward, m_up);
+            glm::mat4 returnMatrix = glm::lookAt(m_position, m_position + m_forward, m_up);
             returnMatrix = m_perspective * returnMatrix;
             return returnMatrix;
         }
@@ -50,11 +49,11 @@ class Camera
 
         void UpdateForward()
         {
-            m_forward.x = m_position.x + glm::sin(m_rotation.y); //Yrot
+            m_forward.x = glm::sin(m_rotation.y); //Yrot
 
-            m_forward.y = m_position.y + glm::sin(m_rotation.x); //Xrot
+            m_forward.y = glm::sin(m_rotation.x); //Xrot
 
-            m_forward.z = m_position.z + glm::cos(m_rotation.x) * glm::cos(m_rotation.y); //Xrot & Yrot
+            m_forward.z = glm::cos(m_rotation.x) * glm::cos(m_rotation.y); //Xrot & Yrot
         }
 
         void SetSpeed(float speed)
